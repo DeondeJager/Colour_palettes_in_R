@@ -13,6 +13,7 @@
 ## Load packages (install them first if need be, e.g. install.packages("scales"))
 library(viridisLite)
 library(scales)
+library(RColorBrewer)
 
 ## Make palette with custom number of colours
 ### To see the scales (options) available in the viridis package, type ?viridis
@@ -49,6 +50,7 @@ dev.off() # Close PDF file
 ## Sometimes viridis is not great for discrete colour palettes,
 ## in which case you can use RColorBrewer: https://colorbrewer2.org/ (or see code below)
 ## but it is not really have the flexibility of viridis
+## See ?RColorBrewer for help
 
 ### Show all palettes in RColorBrewer
 display.brewer.all()
